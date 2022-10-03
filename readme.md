@@ -1,4 +1,8 @@
-Esse arquivo é sobre como utilizar o GIT apresentando os principais comandos no GIT
+Apresentando os principais comandos no GIT
+
+Premissas básicas
+
+realizar o downdload do git e do vs code ou um editor que você goste.
 
 Links importantes:
 
@@ -6,11 +10,14 @@ download do git
 https://git-scm.com/download/win
 
 download do vs code
+https://code.visualstudio.com/docs/?dv=win
+
+observação: você poderá utilizar o editor de texto de sua preferência.
 
 documentação do git
 See http://git-scm.com/ for further details about Git including ports to other operating systems. Git for Windows is hosted at https://gitforwindows.org/.
 
-observação: você poderá utilizar o editor de texto de sua preferência.
+Vamos lá, dando os seus primeiros comandos
 
 //verificar a versão
 git --version
@@ -18,7 +25,7 @@ git --version
 //criar repositório
 git init
 
-//deixar o arquivo na espera para o comit
+//deixar o arquivo na espera para o commit
 git add nomedoarquivo.extensão
 
 /listando para a área de commit
@@ -31,33 +38,33 @@ git commit -m "coloque aqui suas considerações sobre o arquivo, pode ser o tit
 
 //finalizando o commit, repita o comando git status para verificar se o commit deu boa.
 
-//algumas empresas utilizam a branch principal do GIT com o nome de (master) e outras (main), verifique com sua equipe de desenvolivimento qual é o padrão atual, caso tenha a necessidade de alterar o nome da sua branch principal basta utilizar o seguinte comando. 
+//algumas empresas utilizam a branch principal do GIT com o nome de (master) e outras (main), então verifique com sua equipe de desenvolivimento qual é o padrão atual, caso tenha a necessidade de alterar o nome da sua branch principal basta utilizar o seguinte comando. 
 
 git branch -M "main" 
 
-//caso tenha a necessidade de retornar para (master) refaça o comando abaixo
+//caso tenha a necessidade de retornar para (master) refaça o comando abaixo.
 
 git branch -M "master"
 
-//esse comando é apenas na primieira vez
+//esse comando é apenas na primieira vez para poder atrelar seu repositório local com o repositório remoto.
 git remote add origin https://github.com/Eng-Robson/Projetosgit.git
 
-//Esse comando sobe os arquivos modificados para o git 
+//Esse comando sobe os arquivos modificados para o git.
 git push -u origin main
 
-//Agora de posse dos principais comandos, ordem dos comandos ao realizar modificações de versionamento ou novos arquivos
+//Agora de posse dos principais comandos, essa é a ordem dos comandos ao realizar modificações de versionamento ou novos arquivos.
 
 //Primeiro
 
-git add nome do arquivo.extensão do arquivo
+git add nomedoarquivo.extensãodoarquivo //exemplo git add readme.md 
 
 //segundo
 git status
 
 //terceiro
-git commit -m "considerações"
+git commit -m "considerações sobre o versionamento"
 
-//quarto e último para subir o arquivo com a nova versão
+//quarto e último comando, esse serve para subir o arquivo com a nova versão
 
 git push -u origin main
 
@@ -65,8 +72,7 @@ ou
 
 git push -u origin master
 
-
-Texto para refletir, quando se deparar discutindo com alguém que é dono da verdade mesmo que a "verdade" dessa pessoa seja falsa perante a fatos e dados, não perca seu tempo precioso discutindo.
+============================================================================texto para reflexão========================================================================================
 
 O burro disse ao tigre: "A grama é azul".
 
@@ -95,3 +101,5 @@ A maior perda de tempo é discutir com o tolo e fanático que não se importa co
 Quando a IGNORÂNCIA GRITA, a inteligência segue em frente.
 
 A moral da história é não discuta com um tolo!
+
+============================================================================Sua saúde mental tem prioridade============================================================================
