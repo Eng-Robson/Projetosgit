@@ -27,6 +27,8 @@ git branch -M "main"
 
 git branch -M "master"
 
+//esse comando é apenas na primieira vez
 git remote add origin https://github.com/Eng-Robson/Projetosgit.git
 
+//Esse comando sobe os arquivos modificados para o git 
 git push -u origin main
