@@ -79,23 +79,23 @@ ou
 
 git push -u origin master
 
-============================================================================.=================================
+========================================================
 
-bbbbbbbbbbbbbbbbbbbb                        iiiiiiiiiiii
-bbbbb     bbbbbbbbbbbbbb                    iiiiiiiiiiii
-bbbbb          bbbbbbbbbbb                  iiiiiiiiiiii
-bbbbb          bbbbbbbbbbbb                 iiiiiiiiiiii
-bbbbb           bbbbbbbbbb                  iiiiiiiiiiii
-bbbbb        bbbbbbbbbbb                    iiiiiiiiiiii
-bbbbb   bbbbbbbbbbbbb                       iiiiiiiiiiii
-bbbbbbbbbbbbbbbbbb                          iiiiiiiiiiii                    
-bbbbbbbbbbbbbbbbbbbbb                       iiiiiiiiiiii                              
-bbbbb     bbbbbbbbbbbbbbb                   iiiiiiiiiiii
-bbbbb          bbbbbbbbbbb                  iiiiiiiiiiii
-bbbbb          bbbbbbbbbbb                  iiiiiiiiiiii
-bbbbb           bbbbbbbbbb                  iiiiiiiiiiii
-bbbbb        bbbbbbbbbbb                    iiiiiiiiiiii
-bbbbb   bbbbbbbbbbbbbb                      iiiiiiiiiiii
-bbbbbbbbbbbbbbbbbb                          iiiiiiiiiiii
-
-=======================================================================================.=======================
+bbbbbbbbbbbbbbbbbbbb............iiiiiiiiiiii
+bbbbb.....bbbbbbbbbbbbbb........iiiiiiiiiiii
+bbbbb..........bbbbbbbbbbb......iiiiiiiiiiii
+bbbbb..........bbbbbbbbbbbb.................
+bbbbb...........bbbbbbbbbb..................
+bbbbb........bbbbbbbbbbb........iiiiiiiiiiii
+bbbbb...bbbbbbbbbbbbb...........iiiiiiiiiiii
+bbbbbbbbbbbbbbbbbb..............iiiiiiiiiiii                    
+bbbbbbbbbbbbbbbbbbbbb...........iiiiiiiiiiii                              
+bbbbb.....bbbbbbbbbbbbbbb.......iiiiiiiiiiii
+bbbbb..........bbbbbbbbbbb......iiiiiiiiiiii
+bbbbb..........bbbbbbbbbbb......iiiiiiiiiiii
+bbbbb...........bbbbbbbbbb......iiiiiiiiiiii
+bbbbb........bbbbbbbbbbb........iiiiiiiiiiii
+bbbbb...bbbbbbbbbbbbbb..........iiiiiiiiiiii
+bbbbbbbbbbbbbbbbbb..............iiiiiiiiiiii
+BY: ROBSON SOUZA
+=========================================================
